@@ -1,0 +1,486 @@
+img {
+    max-width: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header css */
+
+.headerSection {
+    background: #f1f1f1 none repeat scroll 0 0;
+    padding: 15px 40px;
+    border-bottom: 1px solid #e5e5e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerSection img {
+    width: 124px;
+}
+
+.headerSection a {
+}
+
+/* body css */
+
+.bodySection {}
+
+.bodySection h2 {
+    text-align: center;
+    padding: 50px;
+    font-size: 37px;
+    color: #0000009e;
+}
+
+.allBody {
+    margin: auto;
+    width: 1080px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftBody {
+    text-align: center;
+}
+
+.onep {}
+
+.onep p {
+    font-size: 21px;
+    color: #00000096;
+}
+
+.onep span {
+    display: block;
+    font-size: 13px;
+    color: #000000a3;
+}
+
+.onep img {
+    width: 380px;
+    margin-top: 42px;
+}
+
+.twop {
+    padding: 70px;
+}
+
+.twop p {
+    font-size: 21px;
+    color: #00000096;
+}
+
+.twop span {
+    display: block;
+    font-size: 13px;
+    color: #000000a3;
+}
+
+.twop img {
+    width: 380px;
+    margin-top: 42px;
+}
+
+.rightBody {
+    background: #f1f1f1;
+    padding: 36px;
+    width: 36%;
+    position: relative;
+}
+
+.formRb {
+}
+
+.formRb form {}
+
+.formRb form h3 {
+    font-size: 17px;
+    font-family: sans;
+    font-weight: bold;
+    margin-top: 16px;
+    margin-bottom: 3px;
+}
+
+.formRb form input {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #00000021;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+.formRb form select {
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #00000021;
+    background: #f1f1f1;
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.formRb form label {
+    font-size: 15px;
+    color: black;
+    font-family: sans;
+    width: 268px;
+    float: right;
+    position: relative;
+    left: -25px;
+}
+
+.formRb form img {}
+
+.nmDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nmDiv input {
+    width: 155px !important;
+}
+
+.lMDivabt {
+    position: absolute;
+    bottom: -40px;
+    left: 65px;
+}
+
+.lMDivabt p {
+    font-size: 13px;
+    color: #00000080;
+    font-family: sans;
+}
+
+.lMDivabt p a {}
+
+.checkbox {}
+
+.checkbox a {}
+
+.btnFormnxtStp {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btnFormnxtStp a {
+    font-size: 12px;
+}
+
+.robtoDiv {
+    margin-top: 20px;
+}
+
+.robtoDiv img {
+    width: 100%;
+    border: 9px solid white;
+}
+
+.robtoDiv hr {
+    margin: 0;
+    color: #0000;
+    height: .2px;
+}
+
+.bday {
+    display: flex;
+}
+
+.bday input {
+    margin-left: 4px;
+    width: 92px !important;
+}
+
+.phn {
+    display: flex;
+}
+
+.phn select {
+    width: 60px !important;
+    padding-left: 4px !important;
+    background: white !important;
+}
+
+.phn input {
+    margin-left: -1px;
+}
+
+.robtoDiv input {
+    width: 20px !important;
+}
+
+.robtoDiv+h3 {
+    background: white;
+    margin: 0 !important;
+    padding: 11px;
+    padding-bottom: 0px;
+}
+
+.exmDiv {
+    background: white;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    padding-bottom: 26px;
+}
+
+.exmDiv img {
+    width: 22px;
+    padding: 1px;
+    height: 22px;
+    cursor: pointer;
+}
+
+.cntryDiv select {
+    padding: 0px !important;
+}
+
+.agreDiv input {
+    width: 20px !important;
+}
+
+.btn.btn-sm.btn-primary {}
+
+label {}
+
+label a {
+    color: #024dbc;
+    font-size: 13px;
+}
+
+a {}
+
+.lMDivabt a {
+    color: #024dbc;
+}
+
+.agreDiv {
+    padding: 20px 0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn.btn-sm.btn-primary {
+    text-decoration: none;
+}
+
+/* footer css */
+
+.footerSection {}
+
+.footerSection hr {
+    margin: 0;
+    margin-top: 90px;
+    height: .8px;
+}
+
+.textFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.leftFooter {
+}
+
+.leftFooter a {
+    padding: 8px;
+    font-size: 13px;
+    color: #000000c9;
+    font-family: sans;
+}
+
+.rightFooter {}
+
+.rightFooter img {}
+
+.rightFooter select {
+    font-size: 13px;
+}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
